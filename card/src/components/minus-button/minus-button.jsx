@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './style.css';
 
-class PlusButton extends Component {
+class MinusButton extends Component {
     state = {  }
     render() { 
         return (
             <div>
-                <button className="plus">+</button>
+                <button className="plus">-</button>
             </div>
         );
     }
 }
- 
-export default PlusButton;
+
+ export default MinusButton;

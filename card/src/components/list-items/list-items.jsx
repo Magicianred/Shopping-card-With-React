@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import PlusButton from '../buttons';
+import MinusButton from '../minus-button';
+import PlusButton from '../plus-button';
 import './style.css';
 
 class ListItem extends Component {
@@ -7,11 +8,11 @@ class ListItem extends Component {
         return (
             <div>
                 <li>text
-                <PlusButton/></li>
+                <PlusButton/><MinusButton/></li>
                 <li>text
-                <PlusButton/></li>
+                <PlusButton/><MinusButton/></li>
                 <li>text
-                <PlusButton/></li>
+                <PlusButton/><MinusButton/></li>
             </div>
         );
     }
