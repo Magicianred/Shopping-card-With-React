@@ -1,5 +1,13 @@
 .header{
     font-size: 30px;
-    color: rgb(31, 99, 76);
     text-align: center;
+    border-bottom: 10px solid rgb(13, 77, 138);
+}
+
+.title{
+    color: rgb(13, 77, 138);
+}
+
+.subTitle{
+    color: rgb(81, 126, 221)!important;
 }

@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Cart from './components/header'
+import Header from './components/header';
+import List from './components/list'
 
 
-ReactDOM.render(<Cart/>, document.getElementById('root')
+ReactDOM.render(
+    <div>
+        <Header/>
+        <List/>
+    </div>
+    , document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
