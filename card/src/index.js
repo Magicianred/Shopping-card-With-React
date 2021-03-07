@@ -4,17 +4,19 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
 import List from './components/list'
+import ListItem from './components/list-items';
+import PlusButton from './components/buttons';
+
 
 
 ReactDOM.render(
-    <div>
+    <React.Fragment>
         <Header/>
         <List/>
-    </div>
+        <ListItem/>
+        <PlusButton/>
+    </React.Fragment>
     , document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

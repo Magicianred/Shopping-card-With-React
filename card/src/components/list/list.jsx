@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+import ListItem from '../list-items';
+import './style.css';
 
 class List extends Component {
+
     render() { 
-        return (
+        return ( 
             <div>
-                <ul>
-                    <li>salam dostlar</li>
+                <ul className="list">
+                    {ListItem}
                 </ul>
             </div>
-        );
+         );
     }
 }
  
