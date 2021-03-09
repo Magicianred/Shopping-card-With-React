@@ -1,3 +1,10 @@
 li{
-    display: inline;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-weight: bold;
+}
+
+img{
+    width: 300px;
 }
