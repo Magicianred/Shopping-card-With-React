@@ -1,0 +1,14 @@
+.all{
+    border-top: 2px solid rgb(13, 77, 138);
+    display: flex;
+    color: rgb(13, 77, 138);
+    justify-content: space-around;
+}
+
+.reset{
+    width: 100px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+
