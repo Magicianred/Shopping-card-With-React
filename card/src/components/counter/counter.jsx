@@ -6,12 +6,21 @@ class Counter extends Component {
         count : 1
      }
 
+     plusFunction = () =>{
+         this.setState({ count: this.state.count + 1})
+     }
+
+     minusFunction = () =>{
+        this.setState({ count: this.state.count - 1})
+    }
+
+     
     render() { 
         return ( 
             <div>
                 <div className = "counter">{this.state.count}</div>
-                <button className = "minus">-</button>
-                <button className="plus">+</button>
+                <button onClick = {this.minusFunction} className = "minus">-</button>
+                <button onClick = {this.plusFunction} className="plus">+</button>
             </div>
          );
     }

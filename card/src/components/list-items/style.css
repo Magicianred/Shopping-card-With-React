@@ -13,9 +13,10 @@ button{
     width: 30px;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 60px;
+    margin: 5px;
+    margin-top: 40px;
 }
 
 .counter{
-    margin-top: 65px;
+    margin-top: 45px;
 }
