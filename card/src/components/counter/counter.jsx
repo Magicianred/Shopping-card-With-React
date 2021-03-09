@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import "./style.css";
 
 class Counter extends Component {
     state = { 
-        count : 0
+        count : 1
      }
 
     render() { 
-
-        let newCount = this.count =1;
         return ( 
-            <div className = "counter">
-            {newCount}
+            <div>
+                <div className = "counter">{this.state.count}</div>
+                <button className = "minus">-</button>
+                <button className="plus">+</button>
             </div>
          );
     }
