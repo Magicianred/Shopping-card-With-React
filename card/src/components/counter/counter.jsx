@@ -9,13 +9,13 @@ class Counter extends Component {
 
      plusFunction = () =>{
          this.setState({ count: this.state.count + 1})
-         this.setState({allProduct: this.state.allProduct + this.state.count})
+         this.setState({allProduct: this.state.allProduct + 1})
      }
 
      minusFunction = () =>{
          if(this.state.count===0) return ;
         this.setState({ count: this.state.count - 1})
-        this.setState({allProduct: this.state.allProduct + this.state.count})
+        this.setState({allProduct: this.state.allProduct - 1})
     }
 
      
