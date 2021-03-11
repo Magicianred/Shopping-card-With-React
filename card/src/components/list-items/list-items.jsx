@@ -11,13 +11,13 @@ class ListItem extends Component {
 
         return (
             <div>
-                <li>
+                <li key = {1}>
                 <img src = {car1}/>
                 <Counter/></li>
-                <li>
+                <li key = {2}>
                 <img src = {car2}/>
                 <Counter/></li>
-                <li>
+                <li key = {3}>
                 <img src = {car3}/>
                 <Counter/></li>
             </div>
