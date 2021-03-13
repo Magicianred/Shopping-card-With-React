@@ -11,7 +11,6 @@ class All extends Component {
         return ( 
             <div className="all">
                 <h3>All products</h3>
-                <h3>{this.props.all}</h3>
                 <button className="reset" onClick={() => window.location.reload(false)}>Reset</button>
             </div>
         );

@@ -5,21 +5,45 @@ import car2 from './img/car2.jpg';
 import car3 from './img/car3.jpg';
 import './style.css';
 
+let imageStyle1 = {
+    backgroundImage: `url(${car1})`,
+    width: "400px",
+    height: "300px",
+}
+
+let imageStyle2 = {
+    backgroundImage: `url(${car2})`,
+    width: "400px",
+    height: "300px",
+}
+
+let imageStyle3 = {
+    backgroundImage: `url(${car3})`,
+    width: "400px",
+    height: "300px",
+}
+
 class ListItem extends Component {
 
     render() { 
 
         return (
             <div>
+            
                 <li key = {1}>
-                <img src = {car1}/>
-                <Counter/></li>
+                    <div className="images" style={imageStyle1}></div>
+                    <Counter/>
+                </li>
+
                 <li key = {2}>
-                <img src = {car2}/>
-                <Counter/></li>
+                    <div className="images" style={imageStyle2}></div>
+                    <Counter/>
+                </li>
+
                 <li key = {3}>
-                <img src = {car3}/>
-                <Counter/></li>
+                   <div className="images" style={imageStyle3}></div>
+                    <Counter/>
+                </li>
             </div>
         );
     }

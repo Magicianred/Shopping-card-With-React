@@ -3,8 +3,7 @@ import "./style.css";
 
 class Counter extends Component {
     state = { 
-        count : 0,
-        allProduct : 0,
+        count : 0
      }
 
      plusFunction = () =>{
@@ -16,6 +15,7 @@ class Counter extends Component {
          this.setState({ count: this.state.count - 1})
     }
 
+   
      
     render() {
         return (
