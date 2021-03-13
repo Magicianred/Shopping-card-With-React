@@ -27,13 +27,12 @@ class Counter extends Component {
 
     render() {
         return (
-            
             <div>
                 <div className = "counter">{this.state.count}</div>
                 <button onClick = {this.minusFunction} className = "minus">-</button>
                 <button onClick = {this.plusFunction} className="plus">+</button>
             </div>
-         );
+        )
     }
 }
 
